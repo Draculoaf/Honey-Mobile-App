@@ -1,14 +1,22 @@
-import { View, Text, Image } from "react-native";
+import { View, Text, Image, Pressable } from "react-native";
 import React from "react";
-import Header from "../components/Header";
-import { SafeAreaView } from "react-native-safe-area-context";
-import SearchBar from "../components/SearchBar";
-import CategoriesList from "../components/RecipeCategoriesList";
+import Icon from "../assets/HoneyIcon.png";
 
 export default function Home(navigation) {
   return (
-    <SafeAreaView>
-      <Text>Welcome to Honey! Let the journey begin!</Text>
-    </SafeAreaView>
+    <View
+      style={{
+        alignItems: "center",
+        justifyContent: "center",
+        flex: 1,
+        textAlign: "Right",
+      }}
+    >
+      <Text>Hey there,</Text>
+      <Text>Honey.</Text>
+      <Pressable>
+        <Text>Let's get making!</Text>
+      </Pressable>
+    </View>
   );
 }

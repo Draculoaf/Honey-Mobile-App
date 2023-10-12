@@ -7,18 +7,24 @@ import {
   Pressable,
 } from "react-native";
 import React from "react";
-import { recipeList } from "../constants/constants";
+import { recipeList, recipes } from "../constants/constants";
 import { useNavigation } from "@react-navigation/native";
 
 const RecipeCard = () => {
   const navigation = useNavigation();
+
   return (
     <View>
       <FlatList
         data={recipeList}
         renderItem={({ item }) => (
           <Pressable
-            onPress={() => navigation.navigate("RecipeDetails")}
+            onPress={(item) =>
+              navigation.navigate("RecipeDetails", {
+                screen: "RecipeDetails",
+                params: { item: item },
+              })
+            }
             style={{
               backgroundColor: "#FDF7F1",
               marginTop: 25,

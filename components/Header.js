@@ -7,9 +7,9 @@ const Header = () => {
       style={{
         backgroundColor: "#F0C59E",
         height: 70,
-
         flexDirection: "row",
         marginVertical: -20,
+        marginBottom: 0,
       }}
     >
       <Text

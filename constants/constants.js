@@ -40,19 +40,15 @@ export const recipeList = [
     ],
   },
   {
-    id: "02",
     name: "Lasagna",
 
-    rating: "3.6",
     ingredients: [
       "Lasagna Noodles",
       "Ground Beef",
       "Ricotta Cheese",
       "Tomato Sauce",
     ],
-    time: "40 mins",
-    difficulty: "Medium",
-    calories: "420 cal",
+
     color: "#f39c12",
     image: require("../assets/HoneyIcon.png"),
     description:
@@ -66,14 +62,10 @@ export const recipeList = [
     ],
   },
   {
-    id: "03",
     name: "Hot Dog",
 
-    rating: "4.6",
     ingredients: ["Hot Dog Buns", "Frankfurters", "Ketchup", "Mustard"],
-    time: "40 mins",
-    difficulty: "Medium",
-    calories: "420 cal",
+
     image: require("../assets/HoneyIcon.png"),
     color: "#FF0000",
     // description, steps to prepare
@@ -87,7 +79,6 @@ export const recipeList = [
     ],
   },
   {
-    id: "04",
     name: "Manchurian",
 
     rating: "3.6",
@@ -194,6 +185,15 @@ export const recipeList = [
       "Assemble the ramen bowls by placing cooked noodles, vegetables, and egg slices.",
       "Ladle the hot broth over the ingredients and get ready to enjoy your homemade ramen!",
     ],
+  },
+];
+
+export const recipes = [
+  {
+    name: "Chocolate Chip Cookies",
+    ingredients: ["Milk, Sugar, Flour, Eggs, Chcolate Chips"],
+    instructions: ["1. Blah blah 1", "Blah blah 2"],
+    image: require("../assets/HoneyIcon.png"),
   },
 ];
 

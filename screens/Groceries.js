@@ -7,10 +7,8 @@ export default function Groceries() {
   return (
     <SafeAreaView>
       <Header />
-      <View style={{ alignItems: "center", top: 45, marginHorizontal: 20 }}>
-        <Text style={{ top: 45, marginHorizontal: 20 }}>
-          I am the grocery list, but I do not have anything yet
-        </Text>
+      <View>
+        <Text>I am the grocery list, but I do not have anything yet</Text>
       </View>
     </SafeAreaView>
   );

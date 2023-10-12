@@ -17,7 +17,7 @@ export default function Navigation() {
   return (
     <NavigationContainer styles={{}}>
       <Stack.Navigator screenOptions={screenOptions}>
-        <Stack.Screen
+        {/*<Stack.Screen
           name="Home"
           component={Home}
           screenOptions={{ tabBarIconStyle: { display: "none" } }}
@@ -25,15 +25,8 @@ export default function Navigation() {
             tabBarButton: () => null,
             tabBarStyle: { display: "none" },
           }}
-        />
-        <Stack.Screen
-          name="RecipeDetails"
-          component={RecipeDetails}
-          screenOptions={{ tabBarIconStyle: { display: "none" } }}
-          options={{
-            tabBarButton: () => null,
-          }}
-        />
+        />*/}
+
         <Stack.Screen
           name="Skills"
           component={Skills}
@@ -85,6 +78,14 @@ export default function Navigation() {
             },
           }}
         ></Stack.Screen>
+        <Stack.Screen
+          name="RecipeDetails"
+          component={RecipeDetails}
+          screenOptions={{ tabBarIconStyle: { display: "none" } }}
+          options={{
+            tabBarButton: () => null,
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -11,11 +11,15 @@ export default function Recipes() {
       <View>
         <Header />
       </View>
-
+      <View style={{ top: 25, marginHorizontal: 15 }}>
+        <SearchBar />
+        <RecipeCategoriesategoriesList />
+      </View>
+      {/*remove margintTop if you want to remove the grey under header */}
       <ScrollView
         showsVerticalScrollIndicator={false}
-        style={{ top: 45, marginHorizontal: 20, flex: 1 }}
-        contentContainerStyle={{ paddingBottom: 70 }}
+        style={{ marginHorizontal: 20, flex: 1, marginTop: 50 }}
+        contentContainerStyle={{ paddingBottom: 30 }}
       >
         <Text style={{ fontSize: 25 }}>Recipes</Text>
         {/*<SearchBar />*/}

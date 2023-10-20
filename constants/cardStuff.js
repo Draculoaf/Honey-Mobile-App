@@ -192,6 +192,7 @@ export const myRecipes = [
 export const mySkills = [
   {
     name: "Cutting Skills",
+    image: require("../assets/knife.png"),
     introduction: [
       "In this lesson, you will learn the various ways that things can be cut, and how to do it. This includes dicing, chiffonade, julienne and mincing. I suggest that you use a sharp non-serrated knife for this exercise, and choose veggies such as onions for dicing, leafy herbs for chiffonade, carrots for julienne and garlic gloves for mincing. Whilst these cuts can be applied to different vegetables, I have found that the above suggested ones, are the easiest to practice with",
     ],
@@ -209,7 +210,67 @@ export const mySkills = [
         "- Step 5 | Repeat for the other half.",
         "Note: The more vertical and horizontal slices you make, the smaller your diced vegetable pieces will be.",
       ],
-      [],
+      [
+        "Chiffonade:",
+
+        "This method is primarily used with soft leafy vegetables so that it can be sliced with ease, and without losing the flavour on the chopping board. ",
+
+        "********This example uses basil leaves********",
+
+        "- Step 1 | Stack the basil leaves on top of each other.",
+        "- Step 2 | Roll the stack of basil leaves into a tight cigar shape.",
+        "- Step 3 | Vertically cut the roll of basil leaves, such that the cuts are perpendicular to the longest side of the roll",
+      ],
+      [
+        "Julienne:",
+
+        "This method is very similar to the dicing method, however, a julienne will give you matchstick like slices of vegetable. It is also used to ensure that the vegetable is evenly sized for consistent cooking. ",
+
+        "*************************This example uses carrots*************************",
+
+        "- Step 1 | Cut your carrot into 5cm segments (about 4 fingers).",
+        "- Step 2 | Take a segment and slice one edge so that it makes a flat surface. This surface does not have to be big. It is mainly for stability.",
+        "- Step 3 | Face the flat side down.",
+        "- Step 4 | Cut evenly spaced vertical slices parallel to the the longest side of the carrot.",
+        "- Step 5 | Stack the carrot slices one on top of the other.",
+        "- Step 6 | Cut vertical slices parallel to the longest side of the slices.",
+      ],
+      [
+        "Mincing:",
+
+        "This method is used to make the ingredient very fine, so that it can be used as a topping or even in recipes which need the ingredient to not cause more texture change in the finished product. Mincing makes the ingredient taste more powerful. If you over mince your ingredient, you are likely to end up with a thick paste.",
+
+        "*****************************This example uses a peeled garlic clove*****************************",
+
+        "- Step 1 | On the chopping board, place a knife flat side down onto the garlic clove. Then firmly, and quickly smash the palm of your hand onto the knife to flatten the garlic.",
+        "- Step 2 | Roughly chop the flattened garlic, occasionally gathering it back up into a pile until the desired consistency.",
+      ],
+    ],
+  },
+  {
+    name: "Stand Mixer Skills",
+    image: require("../assets/mix.png"),
+    introduction: [
+      "Introduction:",
+
+      "A stand mixer usually comes with three basic attachments: the dough hook, flat beater and the whisk. In this lesson, we will identify each attachment’s purpose. Although there are more attachments that a stand mixer can come with such as a mincer, blender, dough roller, etc. the three basic attachments assist in quicker baking.",
+    ],
+    instructions: [
+      [
+        "Dough Hook:",
+
+        "The dough hook is usually either c-shaped or spiral shaped, and this attachment assists in kneading dough. The main difference between the c-shape and the spiral shape, is that the spiral shape mixes the dough on the bottom of the stand mixer bowl, whereas the c-shaped attachment mixes the dough on the sides of the bowl.",
+      ],
+      [
+        "Flat beater:",
+
+        "The flat beater attachment is best suited for items which may be too thick for the whisk, such as cookie dough. The flat beater can also be used to cream things, however, the motion it mimics the most is actually similar to folding.",
+      ],
+      [
+        "Whisk:",
+
+        " Very similar to the hand held whisk, this attachment is perfect for aerating light mixtures. It can also be used for lighter frostings, but is particularly useful when making items such as meringues which require thoroughly beaten egg whites.",
+      ],
     ],
   },
 ];

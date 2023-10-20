@@ -34,7 +34,12 @@ export default function Groceries() {
       <View>
         <Header />
         <Text
-          style={{ fontSize: 25, padding: 15, marginBottom: 10, marginTop: 10 }}
+          style={{
+            fontSize: 25,
+            padding: 20,
+            marginBottom: 10,
+            marginTop: 5,
+          }}
         >
           Grocery List
         </Text>

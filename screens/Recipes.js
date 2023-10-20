@@ -18,7 +18,7 @@ export default function Recipes() {
       {/*remove margintTop if you want to remove the grey under header */}
       <ScrollView
         showsVerticalScrollIndicator={false}
-        style={{ marginHorizontal: 20, flex: 1, marginTop: 50 }}
+        style={{ marginHorizontal: 15, flex: 1, marginTop: 50 }}
         contentContainerStyle={{ paddingBottom: 30 }}
       >
         <Text style={{ fontSize: 25 }}>Recipes</Text>

@@ -7,8 +7,8 @@ import {
   Pressable,
 } from "react-native";
 import React from "react";
-import { recipeList, recipes } from "../constants/constants";
 import { useNavigation } from "@react-navigation/native";
+import { myRecipes } from "../constants/cardStuff";
 
 const RecipeCard = () => {
   const navigation = useNavigation();
@@ -16,7 +16,7 @@ const RecipeCard = () => {
   return (
     <View>
       <FlatList
-        data={recipeList}
+        data={myRecipes}
         renderItem={({ item }) => (
           <Pressable
             onPress={(item) =>
@@ -48,7 +48,9 @@ const RecipeCard = () => {
                 height: 150,
               }}
             />
-            <Text style={{ bottom: 10 }}>{item.name}</Text>
+            <Text style={{ bottom: 10, flexWrap: "wrap", fontSize: 15 }}>
+              {item.name}
+            </Text>
           </Pressable>
         )}
         numColumns={2}

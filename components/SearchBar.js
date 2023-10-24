@@ -6,7 +6,7 @@ const SearchBar = (search, placeholder) => {
   return (
     <View
       style={{
-        backgroundColor: "#FDF7F1",
+        backgroundColor: "white",
         flexDirection: "row",
         paddingVertical: 15,
         paddingHorizontal: 20,

@@ -26,7 +26,7 @@ const SkillsCard = () => {
               })
             }
             style={{
-              backgroundColor: "#FDF7F1",
+              backgroundColor: "white",
               marginTop: 10,
               borderRadius: 10,
               color: "white",

@@ -84,6 +84,7 @@ export default function Navigation() {
           screenOptions={{ tabBarIconStyle: { display: "none" } }}
           options={{
             tabBarButton: () => null,
+            tabBarStyle: { display: "none" },
           }}
         />
       </Stack.Navigator>

@@ -26,7 +26,7 @@ const RecipeCard = () => {
               })
             }
             style={{
-              backgroundColor: "#FDF7F1",
+              backgroundColor: "white",
               marginTop: 25,
               borderRadius: 10,
               color: "white",

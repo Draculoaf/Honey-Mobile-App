@@ -53,6 +53,51 @@ export const myRecipes = [
     image: require("../assets/beef.png"),
   },
   {
+    name: "Lemonade",
+    ingredients: [
+      "Serves 5",
+      "- 4 limes",
+      "- 0,5 cups sweetened condensed milk (more if you want it sweeter)",
+      "- 4 cups water",
+      "- **********Optionally********** ice and lime slices to serve",
+    ],
+    instructions: [
+      "- Cut | Slice the 4 limes into pieces that can fit in the blender.",
+      "- Blend | Blend the sliced limes with the water and sweetened condensed milk. Do not blend for too long as this will make the lemonade bitter.",
+      "- Strain | Take the lemonade, and pour it through a strainer to get rid of the pulp. Make sure that the liquid is strained into a jug.",
+      "- Serve | Fill a cup with ice and pour the lemonade in. Garish the rim of the cup with a slice of lime or place a lime rind on top of the drink.",
+    ],
+    image: require("../assets/lemonade.png"),
+  },
+  {
+    name: "Hotteok",
+    ingredients: [
+      "Makes 8 (size dependent)",
+      "- 2,5 tsp active dry yeast (about one packet)",
+      "- 1/4 cup warm water",
+      "- 1 tsp sugar",
+      "- 2 cups flour",
+      "- 1 tbsp oil",
+      "- 1 and 1/4 cups milk",
+      "- 0,5 cup of brown sugar",
+      "- 1 tsp cinnamon powder",
+      "- Oil for frying",
+      "- ***********Optionally*********** 10 tbsp assorted roasted nuts (almonds and hazelnuts are the most popular)",
+      "- ***********Optionally*********** 0,5 cup of glutinous rice flower",
+    ],
+    instructions: [
+      "- Yeast Activation | In a bowl, mix together the yeast, sugar (1tsp) and water, and let it rest for 10 minutes.",
+      "- Batter | In the same bowl as the yeast mixture, add the milk and oil, an mix together. Then add the flour, and salt, and mix until combined.",
+      "- 1st Rise | Cover the batter bowl with cling wrap and let rest for 1 hour.",
+      "- 2nd Rise | After 1 hour, deflate the batter, and let rise again for 30 minutes.",
+      "- Filling | In a bowl, combine the cinnamon, sugar (0,5 cup) and nuts. Once the batter has finished rising the second time, take a scoop of batter and flatten into a circle. Then make make the circle into a bowl shape, and fill it with filling. Finally, close the circle, pinching around the edges to seal.",
+      "- Repeat | Continue filling dough circles until there is no more batter or filling.",
+      "- Fry | Coat the bottom of a frying pan with some oil, and then place your filled hotteok onto it. As it cooks, flatten the hotteok with a spatula. The hotteok is cooked when both sides are golden brown.",
+      "- Serve | Hotteok is ready to eat straight off the pan, but could be accompanied by an extra sprinkle of nuts on top.",
+    ],
+    image: require("../assets/pancakes.png"),
+  },
+  {
     name: "Brownie Cookie",
     ingredients: [
       "- 1 cup cocoa",
@@ -66,6 +111,7 @@ export const myRecipes = [
       "- 1tsp salt",
       "- 1 cup chocolate chips",
     ],
+
     instructions: [
       "- Preheat Oven | Preheat the oven to 180 degrees Celsius.",
       "- Dough | In a bowl, mix the cocoa, flour, sugar, baking powder and salt together. Then add the oil, eggs, and vanilla essence, stirring well so tat there are no clumps. Finally, add your chocolate chips.",
@@ -95,23 +141,7 @@ export const myRecipes = [
     ],
     image: require("../assets/cookie.png"),
   },
-  {
-    name: "Lemonade",
-    ingredients: [
-      "Serves 5",
-      "- 4 limes",
-      "- 0,5 cups sweetened condensed milk (more if you want it sweeter)",
-      "- 4 cups water",
-      "- **********Optionally********** ice and lime slices to serve",
-    ],
-    instructions: [
-      "- Cut | Slice the 4 limes into pieces that can fit in the blender.",
-      "- Blend | Blend the sliced limes with the water and sweetened condensed milk. Do not blend for too long as this will make the lemonade bitter.",
-      "- Strain | Take the lemonade, and pour it through a strainer to get rid of the pulp. Make sure that the liquid is strained into a jug.",
-      "- Serve | Fill a cup with ice and pour the lemonade in. Garish the rim of the cup with a slice of lime or place a lime rind on top of the drink.",
-    ],
-    image: require("../assets/lemonade.png"),
-  },
+
   {
     name: "Chili Oil Pasta",
     ingredients: [
@@ -158,34 +188,6 @@ export const myRecipes = [
       "- Topping | Once the cake has cooled, coat the top with the lemon flavoured icing and blueberries.",
     ],
     image: require("../assets/cake_lemon.png"),
-  },
-  {
-    name: "Hotteok",
-    ingredients: [
-      "Makes 8 (size dependent)",
-      "- 2,5 tsp active dry yeast (about one packet)",
-      "- 1/4 cup warm water",
-      "- 1 tsp sugar",
-      "- 2 cups flour",
-      "- 1 tbsp oil",
-      "- 1 and 1/4 cups milk",
-      "- 0,5 cup of brown sugar",
-      "- 1 tsp cinnamon powder",
-      "- Oil for frying",
-      "- ***********Optionally*********** 10 tbsp assorted roasted nuts (almonds and hazelnuts are the most popular)",
-      "- ***********Optionally*********** 0,5 cup of glutinous rice flower",
-    ],
-    instructions: [
-      "- Yeast Activation | In a bowl, mix together the yeast, sugar (1tsp) and water, and let it rest for 10 minutes.",
-      "- Batter | In the same bowl as the yeast mixture, add the milk and oil, an mix together. Then add the flour, and salt, and mix until combined.",
-      "- 1st Rise | Cover the batter bowl with cling wrap and let rest for 1 hour.",
-      "- 2nd Rise | After 1 hour, deflate the batter, and let rise again for 30 minutes.",
-      "- Filling | In a bowl, combine the cinnamon, sugar (0,5 cup) and nuts. Once the batter has finished rising the second time, take a scoop of batter and flatten into a circle. Then make make the circle into a bowl shape, and fill it with filling. Finally, close the circle, pinching around the edges to seal.",
-      "- Repeat | Continue filling dough circles until there is no more batter or filling.",
-      "- Fry | Coat the bottom of a frying pan with some oil, and then place your filled hotteok onto it. As it cooks, flatten the hotteok with a spatula. The hotteok is cooked when both sides are golden brown.",
-      "- Serve | Hotteok is ready to eat straight off the pan, but could be accompanied by an extra sprinkle of nuts on top.",
-    ],
-    image: require("../assets/pancakes.png"),
   },
 ];
 

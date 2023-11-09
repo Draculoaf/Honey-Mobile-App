@@ -271,8 +271,138 @@ export const mySkills = [
       [
         "Whisk:",
 
-        " Very similar to the hand held whisk, this attachment is perfect for aerating light mixtures. It can also be used for lighter frostings, but is particularly useful when making items such as meringues which require thoroughly beaten egg whites.",
+        "Very similar to the hand held whisk, this attachment is perfect for aerating light mixtures. It can also be used for lighter frostings, but is particularly useful when making items such as meringues which require thoroughly beaten egg whites.",
       ],
+    ],
+  },
+  {
+    name: "Rice Skills",
+    image: require("../assets/rice.png"),
+    introduction: [
+      "Introduction",
+      "Rice is a staple in many dishes both in this app, and is surprisingly easy to prepare. It can be cooked in a pot, a rice cooker or even the microwave. For this learning exercise, you will need 1 cup of rice, 2 cups of water and your cooking pot of choice. The more water you add, the more fluffy your rice will be, and if you add less water your rice will become harder.",
+    ],
+    instructions: [
+      "***********************This example uses the ratio 1:2 of rice to water, and cooks rice on a stovetop.***********************",
+
+      "Instructions: ",
+
+      "- Wash | Fill a bowl with your cup of rice, and water. Stir the rice around in the water, and once the water is cloudy, drain the water. Repeat this until the water does not become cloudy (about 3 times).",
+      "- Cook | In a pot, pour your washed rice, and two cups of water. Then turn up the heat so that the water boils for 15-20 minutes. Finally, turn down the heat so that the water is at a boil, and cover with a lid for 5-10 minutes. Once these two steps are completed, there should be no excess water, and the rice grains should be soft.",
+      "- Serve | Once the rice is cooked, turn off the heat and fluff the rice. Let the rice cool with the lid off.",
+    ],
+  },
+  {
+    name: "Frosting Types",
+    image: require("../assets/icing.png"),
+    introduction: [
+      "Introduction",
+      "Frosting is the perfect way to elevate cakes, cookies and other confectionery delights, but there are so many to choose from. In this lesson, you will learn the six broad categories of frosting, and a basic recipe.",
+    ],
+    instructions: [
+      [
+        "Buttercream:",
+
+        "Buttercream is a frosting which combines aerated fat (such as butter) with sugar. It is one of the most common frostings, and comes in many different variations such as: meringue buttercream, French buttercream and decorator’s buttercream.",
+        "Instructions: ",
+        "***********************This example uses the ratio of 1:2 non-salted butter to icing sugar, and a dash of milk.***********************",
+        "- Step 1 | Using a whisk, beat the softened butter until smooth, then add half of the icing sugar and mix again.",
+        "- Step 2 | Add the remaining icing sugar, and milk, then beat again until light and fluffy. Be careful not to overbeat as this will cause separation.",
+      ],
+      [
+        "Cooked Frosting:",
+        "Instructions:",
+        "The flat beater attachment is best suiteCooked frosting makes use of heated syrups which are then mixed into stiff peak meringues. This frosting is very delicate and must be consumed within a day of being made and put onto a cake, otherwise it may be absorbed. This type of frosting can also be made with aerated butter and flour instead of syrup and meringue. d for items which may be too thick for the whisk, such as cookie dough. The flat beater can also be used to cream things, however, the motion it mimics the most is actually similar to folding.",
+        "- Step 1 | Combine 0,5 cup of milk, 2 tbsp of flour and a pinch of salt in a pot, and heat the mixture whilst stirring continuously. Once this mixture becomes a smooth paste, take it off the heat and sit aside to cool.",
+        "- Step 2 | In a separate bowl combine 0,5 cup castor sugar, and 0,5 cup of non-salted butter. Beat this mixture with a whisk until combines, and then add the flour mixture. Beat the combine mixtures until soft and fluffy.",
+      ],
+      [
+        "Whipped Cream Frosting:",
+
+        "Whipped cream frosting is exactly how it sounds: it uses whipped cream, combined with sugar. This frosting should be kept refrigerated to avoid melting.",
+        "Instructions:",
+        "******************************************This example uses the ratio of 1:2 powdered sugar to whipping cream, and a dash of vanilla essence.******************************************",
+
+        "- Step 1 | In a large bowl, whip the cream with a whisk until soft peaks form, and then gradually add the powdered sugar, and vanilla essence.",
+        "- Step 2 | Continue whipping until stiff peaks form. Use immediately.",
+      ],
+      [
+        "Glaze:",
+
+        "This is the simplest icing, which only needs a liquid and powdered sugar. The finished texture is hard and brittle, and is perfect on cookies and cakes for a thin layer of sweetness. ",
+        "Instructions:",
+        "******************************************This example uses 2 cups of icing sugar, and 3 tbsp of milk.******************************************",
+
+        "- Step 1 | Combine the icing sugar and milk together in a bowl.",
+        "- Step 2 | Pour the icing over your treat or dip the treat into the icing. Let the icing set once it is on",
+      ],
+      [
+        "Royal Icing:",
+
+        "Royal icing is very similar to the basic glaze, however, it makes use of egg whites in the recipe. The finished texture will be hard and brittle.",
+        "Instructions:",
+        "******************************************This example sues 2 cups of icing sugar, 1 large egg white, and 0,5 tsp of water.******************************************",
+
+        "- Step 1 | Mix all the ingredients together util smooth and thickened. Is the mixture is too thick, then add small amounts of water until desired consistency.",
+        "- Step 2 | Pour the icing over your treat or dip the treat into the icing. Let the icing set once it is on.",
+      ],
+      [
+        "Ganache:",
+
+        "A ganache melts together heavy cream and chocolate. It has a smooth and shiny finish, and is soft.",
+        "Instructions:",
+        "******************************************This example uses 1 cup heavy cream and 220g of chocolate.******************************************",
+
+        "- Step 1 | In a pot, boil some water. Then put a put a heat proof bowl on top of the pot.",
+        "- Step 2 | Pour the cream and chocolate into the bowl on top of the pot. Stir continuously as the chocolate melts.",
+        "- Step 3 | Let the icing cool, and then pour it over your treat.",
+      ],
+    ],
+  },
+  {
+    name: "Food Washing",
+    image: require("../assets/wash.png"),
+    introduction: [
+      "Introduction",
+      "Washing produce is an important part of the food preparation process because it helps to remove both dirt and residual pesticides, but what is the best method to wash your produce, and what should you not be washing? In this lesson we will be covering these important questions.",
+    ],
+    instructions: [
+      [
+        "The method:",
+
+        "The process of having good produce begins at the store or in the garden. You should choose vegetables which are not punctured or squashed, and are free of any mould. Once the produce has been chosen, it should be washed. The best way to wash produce is simply by using cold water, and gently rubbing the dirt off. Some vegetables can be soaked or even gently scrubbed to assist with removing stubborn dirt patches. Never wash your produce with soap or other household chemicals because vegetables are porous, and will be absorbed into the produce. Using other solutions such as lemon juice or vinegar will not be more effective than using water.",
+      ],
+      [
+        "What not to wash:",
+
+        "Never wash raw meat. Washing raw meat will spread bacteria in your sink, kitchen ad wherever else the bacteria filled water splashes. Additionally, mushrooms should not be washed, but rather gently wiped with a moist towel because mushrooms will absorb the water and this will change the taste and texture. Additionally, you do not need to wash pre-washed produce (such as bagged salads which are labeled as being pre-washed) as they have been commercially washed.",
+      ],
+    ],
+  },
+  {
+    name: "Dough kneading",
+    image: require("../assets/dough.png"),
+    introduction: [
+      "Introduction",
+      "Kneading dough is an essential part of forming gluten which makes the final product softer, additionally is evenly distributes yeast so that air bubbles are evenly distributed, and adds volume to the final product. In this lesson, you will learn how to knead, and how to check if the bread is kneaded sufficiently.",
+    ],
+    instructions: [
+      [
+        "****************This example uses a ball of un-kneaded dough.****************",
+
+        "How to knead dough:",
+
+        "- Punching | Press the dough with the bottom of your palm, and push out. Continue doing this motion, each time bringing the dough back to the center before punching again.",
+        "- Folding or flipping | When punching the dough, change the orientation of the dough by folding and flipping it. The goal here is to work all parts of the dough ball.",
+      ],
+      [
+        "***********************To do this, you will need a ball of kneaded dough.***********************",
+
+        "How to check if the dough is kneaded enough:",
+
+        "- Window pane test | Check the dough by slowly stretching the dough in the air. If the dough can stretch, without breaking, to a thinness where light can shine through it and shadows can be seen, then it is kneaded sufficiently, and ready to be proofed.",
+      ],
+      ,
     ],
   },
 ];

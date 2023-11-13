@@ -30,7 +30,7 @@ export default function Groceries() {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: "#ede4dd" }}>
       <View>
         <Header />
         <Text

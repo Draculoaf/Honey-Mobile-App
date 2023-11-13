@@ -2,6 +2,7 @@ import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { Home, Recipes, Groceries, Skills } from "../screens";
+import RecipeCarousel from "../screens/RecipeCarousel";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { FontAwesome } from "@expo/vector-icons";
 import RecipeDetails from "../screens/RecipeDetails";
@@ -15,7 +16,7 @@ const screenOptions = {
 
 export default function Navigation() {
   return (
-    <NavigationContainer styles={{}}>
+    <NavigationContainer>
       <Stack.Navigator screenOptions={screenOptions}>
         {/*<Stack.Screen
           name="Home"
@@ -86,7 +87,16 @@ export default function Navigation() {
             tabBarButton: () => null,
             tabBarStyle: { display: "none" },
           }}
-        />
+        ></Stack.Screen>
+        <Stack.Screen
+          name="RecipeCarousel"
+          component={RecipeCarousel}
+          screenOptions={{ tabBarIconStyle: { display: "none" } }}
+          options={{
+            tabBarButton: () => null,
+            tabBarStyle: { display: "none" },
+          }}
+        ></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );

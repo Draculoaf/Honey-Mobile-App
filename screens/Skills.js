@@ -5,7 +5,7 @@ import SkillsCard from "../components/SkillsCard";
 
 export default function Skills() {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: "#ede4dd" }}>
       <View>
         <Header />
         <Text style={{ fontSize: 25, padding: 25 }}>Skills</Text>

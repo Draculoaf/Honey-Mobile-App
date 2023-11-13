@@ -4,8 +4,9 @@ import Home from "./Home";
 import Groceries from "./Groceries";
 import Recipes from "./Recipes";
 import Skills from "./Skills";
+import RecipeCarousel from "./RecipeCarousel";
 
-export { Home, Groceries, Skills, Recipes };
+export { Home, Groceries, Skills, Recipes, RecipeCarousel };
 export default function index() {
   return (
     <View>

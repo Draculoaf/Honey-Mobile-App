@@ -27,12 +27,12 @@ const RecipeCard = () => {
             }
             style={{
               backgroundColor: "white",
-              marginTop: 25,
+              marginTop: 10,
               borderRadius: 10,
               color: "white",
               paddingVertical: 20,
               paddingHorizontal: 20,
-              borderRadius: 10,
+
               shadowColor: "black",
               shadowOffset: { width: 1, height: 4 },
               shadowOpacity: 0.1,

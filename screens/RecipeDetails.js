@@ -10,7 +10,6 @@ import React from "react";
 import Header from "../components/Header";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from "@expo/vector-icons";
-import { Button } from "react-native";
 import { TouchableOpacity } from "react-native";
 
 const RecipeDetails = ({ navigation, route }) => {
@@ -89,7 +88,7 @@ const RecipeDetails = ({ navigation, route }) => {
               shadowOffset: { width: 1, height: 4 },
               shadowOpacity: 0.1,
               shadowRadius: 4,
-              backgroundColor: "red",
+              backgroundColor: "#CA3C25",
               maxWidth: 150,
               paddingTop: 30,
               paddingBottom: 30,
